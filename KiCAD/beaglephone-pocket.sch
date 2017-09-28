@@ -1,0 +1,690 @@
+EESchema Schematic File Version 2
+LIBS:beaglephone-pocket-cache
+EELAYER 25 0
+EELAYER END
+$Descr D 34000 22000
+encoding utf-8
+Sheet 1 1
+Title "BeaglePhone Pocket"
+Date "2017-09-28"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #GND013
+U 1 1 599213A3
+P 20850 4650
+F 0 "#GND013" H 20751 4550 70  0001 L BNN
+F 1 "GND" V 20900 4400 70  0000 L BNN
+F 2 "" H 20850 4650 60  0001 C CNN
+F 3 "" H 20850 4650 60  0001 C CNN
+	1    20850 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #GND014
+U 1 1 59921407
+P 24150 4650
+F 0 "#GND014" H 24050 4550 70  0001 L BNN
+F 1 "GND" V 24150 4400 70  0000 L BNN
+F 2 "" H 24150 4650 60  0001 C CNN
+F 3 "" H 24150 4650 60  0001 C CNN
+	1    24150 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #GND015
+U 1 1 5992146B
+P 24150 4950
+F 0 "#GND015" H 24050 4850 70  0001 L BNN
+F 1 "GND" V 24200 4700 70  0000 L BNN
+F 2 "" H 24150 4950 60  0001 C CNN
+F 3 "" H 24150 4950 60  0001 C CNN
+	1    24150 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #GND016
+U 1 1 599214CF
+P 25150 4650
+F 0 "#GND016" H 25051 4550 70  0001 L BNN
+F 1 "GND" V 25200 4400 70  0000 L BNN
+F 2 "" H 25150 4650 60  0001 C CNN
+F 3 "" H 25150 4650 60  0001 C CNN
+	1    25150 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #GND017
+U 1 1 59921533
+P 25150 4950
+F 0 "#GND017" H 25051 4850 70  0001 L BNN
+F 1 "GND" V 25150 4700 70  0000 L BNN
+F 2 "" H 25150 4950 60  0001 C CNN
+F 3 "" H 25150 4950 60  0001 C CNN
+	1    25150 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L 2X18-_INCH_-0.1-TH-_35MIL-DIA_-W_O-SILK P1
+U 1 1 59921D67
+P 22650 4850
+F 0 "P1" H 22650 5880 70  0000 L BNN
+F 1 "~" H 22640 4740 65  0001 L TNN
+F 2 "PocketBeagle.pretty:TH-2X18-(35MIL-DIA)-W_O-SILK" H 22640 4640 65  0001 L TNN
+F 3 "" H 22650 4850 60  0001 C CNN
+	1    22650 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2X18-_INCH_-0.1-TH-_35MIL-DIA_-W_O-SILK P2
+U 1 1 59921E2F
+P 26650 4850
+F 0 "P2" H 26650 5880 70  0000 L BNN
+F 1 "~" H 26640 4740 65  0001 L TNN
+F 2 "PocketBeagle.pretty:TH-2X18-(35MIL-DIA)-W_O-SILK" H 26640 4640 65  0001 L TNN
+F 3 "" H 26650 4850 60  0001 C CNN
+	1    26650 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SYS_5V #SUPPLY05
+U 1 1 59922B13
+P 25050 4550
+F 0 "#SUPPLY05" H 25050 4710 70  0001 L BNN
+F 1 "SYS_5V" V 25200 4450 70  0000 L BNN
+F 2 "" H 25050 4550 60  0001 C CNN
+F 3 "" H 25050 4550 60  0001 C CNN
+	1    25050 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SYS_5V #SUPPLY06
+U 1 1 59922B77
+P 24250 5050
+F 0 "#SUPPLY06" H 24250 5210 70  0001 L BNN
+F 1 "SYS_5V" V 24450 5000 70  0000 L BNN
+F 2 "" H 24250 5050 60  0001 C CNN
+F 3 "" H 24250 5050 60  0001 C CNN
+	1    24250 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L VDD_5V #SUPPLY09
+U 1 1 59922CA3
+P 20850 3950
+F 0 "#SUPPLY09" H 20850 4110 70  0001 L BNN
+F 1 "VDD_5V" V 20850 4110 70  0000 L BNN
+F 2 "" H 20850 3950 60  0001 C CNN
+F 3 "" H 20850 3950 60  0001 C CNN
+	1    20850 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VDD_3V3B #SUPPLY011
+U 1 1 59922D07
+P 24250 4550
+F 0 "#SUPPLY011" H 24250 4710 70  0001 L BNN
+F 1 "VDD_3V3B" V 24150 4450 70  0000 L BNN
+F 2 "" H 24250 4550 60  0001 C CNN
+F 3 "" H 24250 4550 60  0001 C CNN
+	1    24250 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L USB_DC #SUPPLY012
+U 1 1 59922D6B
+P 20750 4250
+F 0 "#SUPPLY012" H 20750 4410 70  0001 L BNN
+F 1 "USB_DC" V 20750 4410 70  0000 L BNN
+F 2 "" H 20750 4250 60  0001 C CNN
+F 3 "" H 20750 4250 60  0001 C CNN
+	1    20750 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VDD_3V3B #SUPPLY013
+U 1 1 59922DCF
+P 25050 5050
+F 0 "#SUPPLY013" H 25050 5210 70  0001 L BNN
+F 1 "VDD_3V3B" V 24950 4900 70  0000 L BNN
+F 2 "" H 25050 5050 60  0001 C CNN
+F 3 "" H 25050 5050 60  0001 C CNN
+	1    25050 5050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	24050 5650 22850 5650
+Text Label 23050 5650 0    65   ~ 0
+(U1.A1)PWM0A
+Wire Wire Line
+	20950 5550 22450 5550
+Text Label 21050 5550 0    65   ~ 0
+(U1.A2)PRU-0.1
+Wire Wire Line
+	20950 5450 22450 5450
+Text Label 21050 5450 0    65   ~ 0
+(U1.A3)PRU-0.4
+Wire Wire Line
+	25250 5450 26450 5450
+Text Label 25350 5450 0    65   ~ 0
+(U1.A4)SPI1.CS
+Wire Wire Line
+	20950 4850 22450 4850
+Text Label 21050 4850 0    65   ~ 0
+(U1.A8)AIN0~1.8V
+Wire Wire Line
+	24050 5250 22850 5250
+Text Label 23050 5250 0    65   ~ 0
+(U1.A10)I2C2.SCL
+Wire Wire Line
+	25250 4450 26450 4450
+Text Label 25350 4450 0    65   ~ 0
+(U1.A11)I2C1.SDA
+Wire Wire Line
+	24050 5450 22850 5450
+Text Label 23050 5450 0    65   ~ 0
+(U1.A12)UART0.RX
+Wire Wire Line
+	24050 4250 22850 4250
+Text Label 23050 4250 0    65   ~ 0
+(U1.A13)SPI0.CLK
+Wire Wire Line
+	24050 4150 22850 4150
+Text Label 23050 4150 0    65   ~ 0
+(U1.A14)SPI0.CS
+Wire Wire Line
+	28050 5350 26850 5350
+Text Label 27050 5350 0    65   ~ 0
+(U1.B1)PRU-0.3
+Wire Wire Line
+	28050 5450 26850 5450
+Text Label 27050 5450 0    65   ~ 0
+(U1.B2)PRU-0.2
+Wire Wire Line
+	28050 5550 26850 5550
+Text Label 27050 5550 0    65   ~ 0
+(U1.B3)PRU-0.5
+Wire Wire Line
+	24050 4850 22850 4850
+Text Label 23050 4850 0    65   ~ 0
+(U1.B4)PRU-0.16
+Wire Wire Line
+	20950 5050 22450 5050
+Text Label 21050 5050 0    65   ~ 0
+(U1.B6)AIN2~1.8V
+Wire Wire Line
+	24050 4750 22850 4750
+Text Label 23050 4750 0    65   ~ 0
+(U1.B7)VREF+
+Wire Wire Line
+	22450 4950 20950 4950
+Text Label 21050 4950 0    65   ~ 0
+(U1.B8)AIN1~1.8V
+Wire Wire Line
+	20950 4750 22450 4750
+Text Label 21050 4750 0    65   ~ 0
+(U1.B9)VREF-
+Wire Wire Line
+	24050 5150 22850 5150
+Text Label 23050 5150 0    65   ~ 0
+(U1.B10)I2C2.SDA
+Wire Wire Line
+	25250 4350 26450 4350
+Text Label 25350 4350 0    65   ~ 0
+(U1.B11)I2C1.SCL
+Wire Wire Line
+	24050 5350 22850 5350
+Text Label 23050 5350 0    65   ~ 0
+(U1.B12)UART0.TX
+Wire Wire Line
+	24050 4350 22850 4350
+Text Label 23050 4350 0    65   ~ 0
+(U1.B13)SPI0.MISO
+Wire Wire Line
+	24050 4450 22850 4450
+Text Label 23050 4450 0    65   ~ 0
+(U1.B14)SPI0.MOSI
+Wire Wire Line
+	28050 5250 26850 5250
+Text Label 27050 5250 0    65   ~ 0
+(U1.C3)PRU-0.6
+Wire Wire Line
+	20950 5350 22450 5350
+Text Label 21050 5350 0    65   ~ 0
+(U1.C4)PRU-0.7
+Wire Wire Line
+	25250 5350 26450 5350
+Text Label 25350 5350 0    65   ~ 0
+(U1.C5)SPI1.CLK
+Wire Wire Line
+	20950 5150 22450 5150
+Text Label 21050 5150 0    65   ~ 0
+(U1.C6)AIN3~1.8V
+Wire Wire Line
+	22450 5250 20950 5250
+Text Label 21050 5250 0    65   ~ 0
+(U1.C7)AIN4~1.8V
+Wire Wire Line
+	25250 5250 26450 5250
+Text Label 25350 5250 0    65   ~ 0
+(U1.C12)SPI1.MISO
+Wire Wire Line
+	25250 5150 26450 5150
+Text Label 25350 5150 0    65   ~ 0
+(U1.C13)SPI1.MOSI
+Wire Wire Line
+	22850 4050 24050 4050
+Text Label 23050 4050 0    65   ~ 0
+(U1.E1)
+Wire Wire Line
+	20950 5650 22450 5650
+Text Label 21050 5650 0    65   ~ 0
+(U1.F1)
+Wire Wire Line
+	24050 3950 22850 3950
+Text Label 23050 3950 0    65   ~ 0
+(U1.F2)AIN6~3.3V
+Wire Wire Line
+	25250 5650 26450 5650
+Text Label 25350 5650 0    65   ~ 0
+(U1.F3)AIN5~3.3V
+Wire Wire Line
+	20950 4550 22450 4550
+Text Label 21050 4550 0    65   ~ 0
+(U1.L14)USB1.ID
+Wire Wire Line
+	20950 4450 22450 4450
+Text Label 21050 4450 0    65   ~ 0
+(U1.L15)USB1.D+
+Wire Wire Line
+	20950 4350 22450 4350
+Text Label 21050 4350 0    65   ~ 0
+(U1.L16)USB1.D-
+Wire Wire Line
+	22450 4050 20950 4050
+Text Label 21050 4050 0    65   ~ 0
+(U1.M14)USB1.DRVVBUS
+Wire Wire Line
+	20950 4150 22450 4150
+Text Label 21050 4150 0    65   ~ 0
+(U1.M15)USB1.VBUS
+Wire Wire Line
+	28050 5650 26850 5650
+Text Label 27050 5650 0    65   ~ 0
+(U1.N13)AIN7~1.8V
+Wire Wire Line
+	28050 4250 26850 4250
+Text Label 27050 4250 0    65   ~ 0
+(U1.N14)
+Wire Wire Line
+	25250 4050 26450 4050
+Text Label 25350 4050 0    65   ~ 0
+(U1.P5)GPIO-0.23
+Wire Wire Line
+	28050 5050 26850 5050
+Text Label 27050 5050 0    65   ~ 0
+(U1.P6)
+Wire Wire Line
+	28050 4750 26850 4750
+Text Label 27050 4750 0    65   ~ 0
+(U1.P7)PRU-0.15
+Wire Wire Line
+	25250 3950 26450 3950
+Text Label 25350 3950 0    65   ~ 0
+(U1.P12)PWM1A
+Wire Wire Line
+	25250 4150 26450 4150
+Text Label 25350 4150 0    65   ~ 0
+(U1.P15)UART4.RX
+Wire Wire Line
+	24050 5550 22850 5550
+Text Label 23050 5550 0    65   ~ 0
+(U1.R5)GPIO-0.26
+Wire Wire Line
+	25250 5550 26450 5550
+Text Label 25350 5550 0    65   ~ 0
+(U1.R6)
+Wire Wire Line
+	28050 4850 26850 4850
+Text Label 27050 4850 0    65   ~ 0
+(U1.R7)
+Wire Wire Line
+	26850 5150 28050 5150
+Text Label 27050 5150 0    65   ~ 0
+(U1.R11)RESET#
+Wire Wire Line
+	28050 4350 26850 4350
+Text Label 27050 4350 0    65   ~ 0
+(U1.R13)
+Wire Wire Line
+	28050 4050 26850 4050
+Text Label 27050 4050 0    65   ~ 0
+(U1.R15)
+Wire Wire Line
+	26450 4250 25250 4250
+Text Label 25350 4250 0    65   ~ 0
+(U1.R16)UART4.TX
+Wire Wire Line
+	26450 4850 25250 4850
+Text Label 25350 4850 0    65   ~ 0
+(U1.T5)
+Wire Wire Line
+	28050 4950 26850 4950
+Text Label 27050 4950 0    65   ~ 0
+(U1.T6)PRU-0.14
+Wire Wire Line
+	26450 4750 25250 4750
+Text Label 25350 4750 0    65   ~ 0
+(U1.T7)
+Wire Wire Line
+	28050 4450 26850 4450
+Text Label 27050 4450 0    65   ~ 0
+(U1.T11)PWR.BTN
+Wire Wire Line
+	28050 4150 26850 4150
+Text Label 27050 4150 0    65   ~ 0
+(U1.T15)
+Wire Wire Line
+	28050 3950 26850 3950
+Text Label 27050 3950 0    65   ~ 0
+(U1.T16)
+Wire Wire Line
+	28050 4650 26850 4650
+Text Label 27050 4650 0    65   ~ 0
+BAT.TEMP
+Wire Wire Line
+	20950 4650 22450 4650
+Wire Wire Line
+	24050 4650 22850 4650
+Wire Wire Line
+	24050 4950 22850 4950
+Wire Wire Line
+	25250 4650 26450 4650
+Wire Wire Line
+	25250 4950 26450 4950
+Wire Wire Line
+	25150 4550 26450 4550
+Text Label 25350 4550 0    65   ~ 0
+SYS_5V
+Wire Wire Line
+	24150 5050 22850 5050
+Text Label 23050 5050 0    65   ~ 0
+SYS_5V
+Wire Wire Line
+	20850 4250 22450 4250
+Text Label 21050 4250 0    65   ~ 0
+USB_DC
+Wire Wire Line
+	24150 4550 22850 4550
+Text Label 23050 4550 0    65   ~ 0
+VDD_3V3B
+Wire Wire Line
+	25150 5050 26450 5050
+Text Label 25350 5050 0    65   ~ 0
+VDD_3V3B
+Wire Wire Line
+	22450 3950 20950 3950
+Wire Wire Line
+	28050 4550 26850 4550
+Text Label 27050 4550 0    65   ~ 0
+VIN.BAT
+Wire Notes Line
+	20550 4700 20550 3900
+Wire Notes Line
+	24550 3900 24550 4700
+Wire Notes Line
+	24550 4900 24550 5700
+Wire Notes Line
+	26650 4700 26550 4700
+Wire Notes Line
+	26550 4700 26550 4650
+Wire Notes Line
+	26550 4650 25250 4650
+Wire Notes Line
+	25250 4650 25250 4700
+Wire Notes Line
+	25250 4700 24750 4700
+Wire Notes Line
+	24750 4700 24750 3900
+Wire Notes Line
+	24750 3900 26650 3900
+Wire Notes Line
+	26650 5700 24750 5700
+Wire Notes Line
+	24750 5700 24750 4900
+Wire Notes Line
+	24750 4900 25250 4900
+Wire Notes Line
+	25250 4900 25250 4950
+Wire Notes Line
+	25250 4950 26550 4950
+Wire Notes Line
+	26550 4950 26550 4900
+Wire Notes Line
+	26550 4900 26650 4900
+Wire Notes Line
+	26650 3900 26650 4700
+Wire Notes Line
+	26650 4900 26650 5700
+Wire Notes Line
+	20550 3900 22650 3900
+Wire Notes Line
+	22650 3900 22650 4700
+Wire Notes Line
+	22650 4700 22550 4700
+Wire Notes Line
+	22550 4700 22550 4650
+Wire Notes Line
+	22550 4650 20950 4650
+Wire Notes Line
+	20950 4650 20950 4700
+Wire Notes Line
+	20950 4700 20550 4700
+Wire Notes Line
+	24550 3900 22750 3900
+Wire Notes Line
+	22750 3900 22750 4700
+Wire Notes Line
+	22750 4700 22850 4700
+Wire Notes Line
+	22850 4700 22850 4650
+Wire Notes Line
+	22850 4650 24050 4650
+Wire Notes Line
+	24050 4650 24050 4700
+Wire Notes Line
+	24050 4700 24550 4700
+Wire Notes Line
+	24550 5700 22750 5700
+Wire Notes Line
+	22750 5700 22750 4900
+Wire Notes Line
+	22750 4900 22850 4900
+Wire Notes Line
+	22850 4900 22850 4950
+Wire Notes Line
+	22850 4950 24050 4950
+Wire Notes Line
+	24050 4950 24050 4900
+Wire Notes Line
+	24050 4900 24550 4900
+Text Label 22850 5650 0    10   ~ 0
+(U1.A1)PWM0A
+Text Label 22450 5550 2    10   ~ 0
+(U1.A2)PRU-0.1
+Text Label 22450 5450 2    10   ~ 0
+(U1.A3)PRU-0.4
+Text Label 26450 5450 2    10   ~ 0
+(U1.A4)SPI1.CS
+Text Label 22450 4850 2    10   ~ 0
+(U1.A8)AIN0~1.8V
+Text Label 22850 5250 0    10   ~ 0
+(U1.A10)I2C2.SCL
+Text Label 26450 4450 2    10   ~ 0
+(U1.A11)I2C1.SDA
+Text Label 22850 5450 0    10   ~ 0
+(U1.A12)UART0.RX
+Text Label 22850 4250 0    10   ~ 0
+(U1.A13)SPI0.CLK
+Text Label 22850 4150 0    10   ~ 0
+(U1.A14)SPI0.CS
+Text Label 26850 5350 0    10   ~ 0
+(U1.B1)PRU-0.3
+Text Label 26850 5450 0    10   ~ 0
+(U1.B2)PRU-0.2
+Text Label 26850 5550 0    10   ~ 0
+(U1.B3)PRU-0.5
+Text Label 22850 4850 0    10   ~ 0
+(U1.B4)PRU-0.16
+Text Label 22450 5050 2    10   ~ 0
+(U1.B6)AIN2~1.8V
+Text Label 22850 4750 0    10   ~ 0
+(U1.B7)VREF+
+Text Label 22450 4950 2    10   ~ 0
+(U1.B8)AIN1~1.8V
+Text Label 22450 4750 2    10   ~ 0
+(U1.B9)VREF-
+Text Label 22850 5150 0    10   ~ 0
+(U1.B10)I2C2.SDA
+Text Label 26450 4350 2    10   ~ 0
+(U1.B11)I2C1.SCL
+Text Label 22850 5350 0    10   ~ 0
+(U1.B12)UART0.TX
+Text Label 22850 4350 0    10   ~ 0
+(U1.B13)SPI0.MISO
+Text Label 22850 4450 0    10   ~ 0
+(U1.B14)SPI0.MOSI
+Text Label 26850 5250 0    10   ~ 0
+(U1.C3)PRU-0.6
+Text Label 22450 5350 2    10   ~ 0
+(U1.C4)PRU-0.7
+Text Label 26450 5350 2    10   ~ 0
+(U1.C5)SPI1.CLK
+Text Label 22450 5150 2    10   ~ 0
+(U1.C6)AIN3~1.8V
+Text Label 22450 5250 2    10   ~ 0
+(U1.C7)AIN4~1.8V
+Text Label 26450 5250 2    10   ~ 0
+(U1.C12)SPI1.MISO
+Text Label 26450 5150 2    10   ~ 0
+(U1.C13)SPI1.MOSI
+Text Label 22850 4050 0    10   ~ 0
+(U1.E1)
+Text Label 22450 5650 2    10   ~ 0
+(U1.F1)
+Text Label 22850 3950 0    10   ~ 0
+(U1.F2)AIN6~3.3V
+Text Label 26450 5650 2    10   ~ 0
+(U1.F3)AIN5~3.3V
+Text Label 22450 4550 2    10   ~ 0
+(U1.L14)USB1.ID
+Text Label 22450 4450 2    10   ~ 0
+(U1.L15)USB1.D+
+Text Label 22450 4350 2    10   ~ 0
+(U1.L16)USB1.D-
+Text Label 22450 4050 2    10   ~ 0
+(U1.M14)USB1.DRVVBUS
+Text Label 22450 4150 2    10   ~ 0
+(U1.M15)USB1.VBUS
+Text Label 26850 5650 0    10   ~ 0
+(U1.N13)AIN7~1.8V
+Text Label 26850 4250 0    10   ~ 0
+(U1.N14)
+Text Label 26450 4050 2    10   ~ 0
+(U1.P5)GPIO-0.23
+Text Label 26850 5050 0    10   ~ 0
+(U1.P6)
+Text Label 26850 4750 0    10   ~ 0
+(U1.P7)PRU-0.15
+Text Label 26450 3950 2    10   ~ 0
+(U1.P12)PWM1A
+Text Label 26450 4150 2    10   ~ 0
+(U1.P15)UART4.RX
+Text Label 22850 5550 0    10   ~ 0
+(U1.R5)GPIO-0.26
+Text Label 26450 5550 2    10   ~ 0
+(U1.R6)
+Text Label 26850 4850 0    10   ~ 0
+(U1.R7)
+Text Label 26850 5150 0    10   ~ 0
+(U1.R11)RESET#
+Text Label 26850 4350 0    10   ~ 0
+(U1.R13)
+Text Label 26850 4050 0    10   ~ 0
+(U1.R15)
+Text Label 26450 4250 2    10   ~ 0
+(U1.R16)UART4.TX
+Text Label 26450 4850 2    10   ~ 0
+(U1.T5)
+Text Label 26850 4950 0    10   ~ 0
+(U1.T6)PRU-0.14
+Text Label 26450 4750 2    10   ~ 0
+(U1.T7)
+Text Label 26850 4450 0    10   ~ 0
+(U1.T11)PWR.BTN
+Text Label 26850 4150 0    10   ~ 0
+(U1.T15)
+Text Label 26850 3950 0    10   ~ 0
+(U1.T16)
+Text Label 26850 4650 0    10   ~ 0
+BAT.TEMP
+Text GLabel 20950 4650 2    10   UnSpc ~ 0
+GND
+Text GLabel 22450 4650 0    10   UnSpc ~ 0
+GND
+Text GLabel 24050 4650 0    10   UnSpc ~ 0
+GND
+Text GLabel 22850 4650 2    10   UnSpc ~ 0
+GND
+Text GLabel 24050 4950 0    10   UnSpc ~ 0
+GND
+Text GLabel 22850 4950 2    10   UnSpc ~ 0
+GND
+Text GLabel 25250 4650 2    10   UnSpc ~ 0
+GND
+Text GLabel 26450 4650 0    10   UnSpc ~ 0
+GND
+Text GLabel 25250 4950 2    10   UnSpc ~ 0
+GND
+Text GLabel 26450 4950 0    10   UnSpc ~ 0
+GND
+Text GLabel 25150 4550 2    10   UnSpc ~ 0
+SYS_5V
+Text GLabel 26450 4550 0    10   UnSpc ~ 0
+SYS_5V
+Text GLabel 24150 5050 0    10   UnSpc ~ 0
+SYS_5V
+Text GLabel 22850 5050 2    10   UnSpc ~ 0
+SYS_5V
+Text GLabel 22450 4250 0    10   UnSpc ~ 0
+USB_DC
+Text GLabel 20850 4250 2    10   UnSpc ~ 0
+USB_DC
+Text GLabel 24150 4550 0    10   UnSpc ~ 0
+VDD_3V3B
+Text GLabel 22850 4550 2    10   UnSpc ~ 0
+VDD_3V3B
+Text GLabel 25150 5050 2    10   UnSpc ~ 0
+VDD_3V3B
+Text GLabel 26450 5050 0    10   UnSpc ~ 0
+VDD_3V3B
+Text GLabel 20950 3950 2    10   UnSpc ~ 0
+VDD_5V
+Text GLabel 22450 3950 0    10   UnSpc ~ 0
+VDD_5V
+Text GLabel 26850 4550 2    10   UnSpc ~ 0
+VIN.BAT
+Wire Notes Line
+	19600 6200 28400 6200
+Wire Notes Line
+	28400 3100 19600 3100
+Wire Notes Line
+	19600 3100 19600 6200
+Wire Notes Line
+	28400 6200 28400 3100
+$EndSCHEMATC
