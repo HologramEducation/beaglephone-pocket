@@ -1,4 +1,4 @@
-update=Mon 16 Feb 2015 06:37:24 AM PST
+update=Friday, September 29, 2017 'AMt' 11:25:18 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -29,4 +29,4 @@ version=1
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=PocketBeagle
+LibName1=/Users/chrisgammell/PCBs/beaglephone-pocket/beaglephone-pocket
