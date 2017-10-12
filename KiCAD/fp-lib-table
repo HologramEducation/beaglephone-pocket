@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name PocketBeagle.pretty)(type KiCad)(uri $KIPRJMOD/pocketbeagle.pretty)(options "")(descr ""))
-  (lib (name beaglephone-pocket)(type KiCad)(uri /Users/chrisgammell/PCBs/beaglephone-pocket/beaglephone-pocket.pretty)(options "")(descr ""))
+  (lib (name pocketbeagle)(type KiCad)(uri "$(KIPRJMOD)/pocketbeagle.pretty")(options "")(descr ""))
+  (lib (name beaglephone-pocket)(type KiCad)(uri "$(KIPRJMOD)/beaglephone-pocket.pretty")(options "")(descr ""))
 )
