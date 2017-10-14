@@ -29,18 +29,13 @@ LIBS:elec-unifil
 LIBS:ESD_Protection
 LIBS:ftdi
 LIBS:gennum
-LIBS:graphic_symbols
 LIBS:hc11
-LIBS:infineon
 LIBS:intel
 LIBS:interface
-LIBS:intersil
 LIBS:ir
 LIBS:Lattice
 LIBS:leds
-LIBS:LEM
 LIBS:linear
-LIBS:logic_programmable
 LIBS:maxim
 LIBS:mechanical
 LIBS:memory
@@ -73,7 +68,6 @@ LIBS:references
 LIBS:regul
 LIBS:relays
 LIBS:rfcom
-LIBS:RFSolutions
 LIBS:sensors
 LIBS:silabs
 LIBS:siliconi
@@ -3228,4 +3222,83 @@ Text Label 8025 20125 0    65   ~ 0
 (U1.P15)UART4.RX
 Text Label 8050 20900 0    65   ~ 0
 (U1.R16)UART4.TX
+NoConn ~ 11900 16500
+NoConn ~ 11900 16600
+NoConn ~ 10900 2850
+NoConn ~ 11600 3250
+NoConn ~ 10700 4750
+NoConn ~ 10700 4850
+NoConn ~ 11050 5150
+NoConn ~ 11050 5250
+NoConn ~ 11750 6150
+NoConn ~ 11750 6250
+NoConn ~ 11750 6350
+NoConn ~ 11750 6450
+NoConn ~ 11750 6850
+NoConn ~ 10700 7150
+NoConn ~ 10700 7250
+NoConn ~ 10700 7350
+NoConn ~ 10700 7450
+NoConn ~ 10700 7550
+NoConn ~ 10700 7650
+NoConn ~ 8700 7650
+NoConn ~ 14400 1750
+NoConn ~ 14400 1850
+NoConn ~ 14400 1950
+NoConn ~ 14400 2050
+NoConn ~ 14400 2550
+NoConn ~ 14400 2650
+NoConn ~ 14400 2750
+NoConn ~ 14400 2850
+NoConn ~ 14400 2950
+NoConn ~ 14400 3050
+NoConn ~ 14400 3150
+NoConn ~ 14400 3250
+NoConn ~ 14400 3350
+NoConn ~ 14400 3450
+NoConn ~ 17500 1750
+NoConn ~ 17500 1850
+NoConn ~ 17500 1950
+NoConn ~ 17500 2050
+NoConn ~ 17500 2150
+NoConn ~ 17500 2250
+NoConn ~ 17500 2450
+NoConn ~ 17500 2550
+NoConn ~ 17500 2650
+NoConn ~ 17500 2950
+NoConn ~ 17500 3050
+NoConn ~ 17500 3150
+NoConn ~ 17500 3250
+NoConn ~ 17500 3350
+NoConn ~ 17500 3450
+NoConn ~ 17500 2850
+NoConn ~ 18700 2150
+NoConn ~ 18700 2250
+NoConn ~ 18700 2550
+NoConn ~ 18700 2650
+NoConn ~ 18700 2850
+NoConn ~ 18700 2950
+NoConn ~ 18700 3050
+NoConn ~ 18700 3150
+NoConn ~ 18700 3250
+NoConn ~ 18700 3350
+NoConn ~ 18700 3450
+NoConn ~ 21500 3450
+NoConn ~ 21500 3350
+NoConn ~ 21500 3250
+NoConn ~ 21500 3150
+NoConn ~ 21500 3050
+NoConn ~ 21500 2950
+NoConn ~ 21500 2850
+NoConn ~ 21500 2750
+NoConn ~ 21500 2650
+NoConn ~ 21500 2550
+NoConn ~ 21500 2450
+NoConn ~ 21500 2350
+NoConn ~ 21500 2250
+NoConn ~ 21500 2150
+NoConn ~ 21500 2050
+NoConn ~ 21500 1950
+NoConn ~ 21500 1850
+NoConn ~ 21500 1750
 $EndSCHEMATC
