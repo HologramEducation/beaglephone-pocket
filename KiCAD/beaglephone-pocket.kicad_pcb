@@ -8,7 +8,7 @@
     (drawings 745)
     (tracks 766)
     (zones 0)
-    (modules 211)
+    (modules 269)
     (nets 147)
   )
 
@@ -21,16 +21,16 @@
   )
 
   (layers
-    (0 Top signal)
-    (1 VDD signal)
-    (2 DigitalGND signal)
-    (31 Bottom signal)
+    (0 Top signal hide)
+    (1 VDD signal hide)
+    (2 DigitalGND signal hide)
+    (31 Bottom signal hide)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
     (34 B.Paste user hide)
     (35 F.Paste user hide)
-    (36 B.SilkS user)
-    (37 F.SilkS user)
+    (36 B.SilkS user hide)
+    (37 F.SilkS user hide)
     (38 B.Mask user hide)
     (39 F.Mask user hide)
     (40 Dwgs.User user hide)
@@ -38,9 +38,9 @@
     (42 Eco1.User user hide)
     (43 Eco2.User user hide)
     (44 Edge.Cuts user)
-    (45 Margin user)
+    (45 Margin user hide)
     (46 B.CrtYd user hide)
-    (47 F.CrtYd user)
+    (47 F.CrtYd user hide)
     (48 B.Fab user hide)
     (49 F.Fab user hide)
   )
@@ -73,7 +73,7 @@
     (pad_drill 0.55)
     (pad_to_mask_clearance 0.0762)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFCEF7F)
+    (visible_elements 7FFC0001)
     (pcbplotparams
       (layerselection 0x0103c_ffffffff)
       (usegerberextensions false)
@@ -402,6 +402,760 @@
     (add_net VDD_3V3B_TOP)
     (add_net VDD_5V)
     (add_net VIN.BAT)
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E29293)
+    (at 139.4206 103.5685)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E2928F)
+    (at 139.3698 102.1842)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E2928B)
+    (at 139.3952 106.2228)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E29287)
+    (at 139.5095 104.7877)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E29283)
+    (at 141.097 114.173)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E2927F)
+    (at 142.2273 114.2873)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E2927B)
+    (at 142.621 113.4872)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E29277)
+    (at 142.6718 112.1156)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E29268)
+    (at 143.5354 112.8522)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E29264)
+    (at 145.0467 111.6711)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E29260)
+    (at 145.5166 113.3094)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E2925C)
+    (at 144.1958 114.5032)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E29258)
+    (at 145.4912 114.3508)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E29254)
+    (at 146.7358 114.3508)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E29250)
+    (at 148.4376 114.4778)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E2924C)
+    (at 149.7838 114.427)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E29248)
+    (at 151.2824 114.1476)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E29244)
+    (at 151.2824 113.411)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E29240)
+    (at 152.3238 113.9952)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E2923C)
+    (at 153.6192 114.2238)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E29238)
+    (at 152.6032 113.03)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E29234)
+    (at 151.2062 112.4204)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E29230)
+    (at 170.2562 96.1898)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E2922C)
+    (at 172.9994 97.3328)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E29228)
+    (at 152.527 97.8154)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E29224)
+    (at 142.9131 95.1611)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E29220)
+    (at 143.7132 95.9993)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E2921C)
+    (at 142.9004 96.6597)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E29218)
+    (at 143.8656 97.282)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E29214)
+    (at 142.24 101.5746)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E29210)
+    (at 142.1384 102.9716)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E2920C)
+    (at 142.113 104.4194)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E29208)
+    (at 142.1511 106.3117)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E29204)
+    (at 143.129 107.4928)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E29200)
+    (at 143.1544 106.0196)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E291FC)
+    (at 143.2052 104.8512)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E291F8)
+    (at 143.2306 103.6066)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E291F4)
+    (at 143.2052 102.3874)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E291F0)
+    (at 143.2306 101.2444)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E291EC)
+    (at 146.6977 101.3206)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E291E8)
+    (at 147.9677 101.4095)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E291E4)
+    (at 156.8958 104.7242)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E291E0)
+    (at 154.7876 103.9368)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E291DC)
+    (at 155.0416 106.934)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E291D8)
+    (at 154.9146 108.1532)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E291D4)
+    (at 152.4254 108.8644)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E291D0)
+    (at 151.1808 107.823)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E291CC)
+    (at 147.447 107.7214)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E291C8)
+    (at 149.2758 107.696)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E291C4)
+    (at 149.225 105.8164)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E291C0)
+    (at 149.1996 103.4542)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E291BC)
+    (at 149.5044 102.0572)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E291B8)
+    (at 149.2758 101.1174)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E291B4)
+    (at 150.5585 101.3714)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E291B0)
+    (at 151.6888 101.0793)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E291AC)
+    (at 153.7716 101.4984)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E291A6)
+    (at 155.1178 101.5746)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E291A2)
+    (at 161.4932 102.6414)
+    (zone_connect 2)
+    (fp_text reference REF** (at 0 0.8) (layer F.SilkS) hide
+      (effects (font (size 0.635 0.635) (thickness 0.1397)))
+    )
+    (fp_text value via (at 0 -0.7) (layer F.Fab) hide
+      (effects (font (size 0.635 0.635) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.59944 0.59944) (drill 0.29972) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
   )
 
   (module beaglephone-pocket:via (layer Top) (tedit 59E112C3) (tstamp 59E28FEF)
