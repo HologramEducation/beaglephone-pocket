@@ -1,6 +1,7 @@
 # Beaglephone-Pocket 
 
-<img src="img/front.JPG">
+<img src="https://github.com/ChrisGammell/beaglephone-pocket/blob/master/img/Front.JPG">
+<img src="https://github.com/ChrisGammell/beaglephone-pocket/blob/master/img/Back.JPG">
 
 ## Background
 
