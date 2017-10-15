@@ -5,7 +5,7 @@
 
 ## Background
 
-This is a clone of the [Hologram Nova](https://github.com/hologram-io/nova-hardware), refactored to work with the Pocket Beagle from the [Beagleboard.org foundation](https://github.com/jadonk/pocketbeagle).
+This is a clone of the [Hologram Nova](https://github.com/hologram-io/nova-hardware), refactored to work with the [Pocket Beagle from the Beagleboard.org foundation](https://github.com/jadonk/pocketbeagle).
 
 ### License
 
