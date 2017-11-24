@@ -1,39 +1,39 @@
-Refs,Link,MPN,datasheet,footprint,value
-ANT1,https://www.digikey.com/product-detail/en/amphenol-rf-division/A-1JB/ARF1579CT-ND/1196264,A-1JB,,beaglephone-pocket:A-1JB,A-1JB
-C1,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R60J106ME84D/490-7316-1-ND/4251709,GRM188R60J106ME84D,,Capacitors_SMD:C_0603,10u
-"C3-C5, C8, C10, C11, C15",NULL,NULL,,Capacitors_SMD:C_0402,NOPE
-"C7, C9, C12, C21, C27",https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R60J226MEA0D/490-7611-1-ND/4280544,GRM188R60J226MEA0D,,Capacitors_SMD:C_0603,22U
-"C13, C14, C22",https://www.digikey.com/product-detail/en/avx-corporation/F950J337MBAAQ2/478-8408-1-ND/4006044,F950J337MBAAQ2,,Capacitors_SMD:C_1210,330U
-C16,https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL05B104KO5NNNC/1276-1001-1-ND/3889087,CL05B104KO5NNNC,,Capacitors_SMD:C_0402,0.1U
-C17-C20,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM1555C1H470JA01D/490-5942-1-ND/3721299,GRM1555C1H470JA01,,Capacitors_SMD:C_0402,47p
-C2,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R61C104KA88D/490-5415-1-ND/2175222,GRM155R61C104KA88D,,Capacitors_SMD:C_0402,100n
-C23,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM1555C1H100JA01D/490-5921-1-ND/3721278,GRM1555C1H100JA01D,,Capacitors_SMD:C_0402,10n
-C24,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71C104KA88J/490-6328-1-ND/3845525,GRM155R71C104KA88J,,Capacitors_SMD:C_0402,100n
-C25,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM1555C1H560JA01D/490-1288-1-ND/587890,GRM1555C1H560JA01D,,Capacitors_SMD:C_0402,56p
-C26,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GJM1555C1H150JB01D/490-3117-1-ND/702383,GJM1555C1H150JB01D,,Capacitors_SMD:C_0402,15p
-C6,https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL10A225MQ8NNNC/1276-1888-1-ND/3889974,CL10A225MQ8NNNC,,Capacitors_SMD:C_0603,2.2U
-D1,https://www.digikey.com/product-detail/en/vishay-semiconductor-opto-division/VLMS1500-GS08/VLMS1500-GS08CT-ND/3504675,VLMS1500-GS08,,LEDs:LED_0402,Red LED
-"D2-D4, D10-D13",https://www.digikey.com/product-detail/en/littelfuse-inc/PESD0402-140/PESD0402-140CT-ND/1968526,PESD0402-140,,Resistors_SMD:R_0402,PESD0402
-D5-D8,https://www.digikey.com/product-detail/en/on-semiconductor/MBR0520LT1G/MBR0520LT1GOSCT-ND/917965,MBR0520LT1G,,Diodes_SMD:D_SOD-123,MBR052
-D9,https://www.digikey.com/product-detail/en/vishay-semiconductor-opto-division/VLMB1500-GS08/VLMB1500-GS08TR-ND/3504677,VLMB1500-GS08,,LEDs:LED_0402,Blue LED
-"J1, J2",https://www.digikey.com/product-detail/en/wurth-electronics-inc/61300211121/732-5315-ND/4846823,61300211121,,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,Conn_01x02
-J3,https://www.digikey.com/product-detail/en/amphenol-fci/10118192-0001LF/609-4613-1-ND/2785378,10118192-0001LF,,Connectors:USB_Micro-B,USB_OTG
-L1,http://www.mouser.com/ProductDetail/Coilcraft/XFL4020-102MEC/?qs=zCSbvcPd3pbaYHL7viZwQA%3D%3D,XFL4020-102MEC,http://www.mouser.com/ds/2/597/xfl4020-270756.pdf,beaglephone-pocket:XFL4020,1uH
-L2,NULL,NULL,,Inductors_SMD:L_0402,NOPE
-L3,https://www.digikey.com/product-detail/en/murata-electronics-north-america/BLM18AG121SN1D/490-1011-1-ND/584459,BLM18AG121SN1D,,Resistors_SMD:R_0603,FB
-"P1, P2",,PocketBeagle_Connectors,,PocketBeagle.pretty:TH-2X18-(35MIL-DIA)-W_O-SILK,PB_CONN
-Q1-Q4,https://www.digikey.com/product-detail/en/on-semiconductor/MMBT3904LT1G/MMBT3904LT1GOSCT-ND/1139813,MMBT3904LT1G,,TO_SOT_Packages_SMD:SOT-23,2N3904
-Q5-Q8,https://www.digikey.com/product-detail/en/central-semiconductor-corp/CMUDM7004-TR/CMUDM7004-CT-ND/5324586,CMUDM7004 TR,https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=CMUDM7004.PDF,beaglephone-pocket:SOT-523,Q_NMOS_GSD
-"R1, R6, R7, R14, R39, R40, R42-R47",https://www.digikey.com/product-detail/en/yageo/RC0402JR-0710KL/311-10KJRTR-ND/726418,RC0402JR-0710KL,,Resistors_SMD:R_0402,10K
-"R10, R17-R19, R21-R24, R27, R34-R38",NULL,NULL,,Resistors_SMD:R_0402,NOPE
-R11,https://www.digikey.com/product-detail/en/yageo/RC0402FR-071ML/311-1.00MLRCT-ND/729462,RC0402FR-071ML,,Resistors_SMD:R_0402,1MEG
-R12,https://www.digikey.com/product-detail/en/yageo/RC0402JR-07150KL/311-150KJRCT-ND/729372,RC0402JR-07150KL,,Resistors_SMD:R_0402,150K
-"R13, R16",https://www.digikey.com/product-detail/en/yageo/RC0402FR-0722RL/311-22.0LRTR-ND/726562,RC0402FR-0722RL,,Resistors_SMD:R_0402,22
-"R2-R4, R8, R9, R15, R26, R28",https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0.0JRCT-ND/729353,RC0402JR-070RL,,Resistors_SMD:R_0402,0
-"R5, R20",https://www.digikey.com/product-detail/en/yageo/RC0402JR-073KL/311-3.0KJRCT-ND/729400,RC0402JR-073KL,,Resistors_SMD:R_0402,3K
-R25,https://www.digikey.com/product-detail/en/yageo/RC0402FR-07100KL/311-100KLRCT-ND/729473,RC0402FR-07100KL,,Resistors_SMD:R_0402,100K
-R41,https://www.digikey.com/product-detail/en/yageo/RC0402JR-07470RL/311-470JRCT-ND/729429,RC0402JR-07470RL,,Resistors_SMD:R_0402,470
-U1,https://www.digikey.com/product-detail/en/texas-instruments/TPS63020DSJR/296-36491-1-ND/4305306,TPS63020DSJ,,beaglephone-pocket:TPS63020,TPS63020
-U2,,eSIM,,Housings_DFN_QFN:DFN-8-1EP_6x5mm_Pitch1.27mm_SmallFlag,eSIM
-U3,https://www.digikey.com/product-detail/en/u-blox-america-inc/SARA-U260-00S/672-1022-1-ND/6150685,SARA-U260-00S,,beaglephone-pocket:SARA-G3-U2,SARA-U260
-U4,http://www.newark.com/global-connector-technology/sim8050-6-0-14-01-a/connector-nano-sim-card-6-position/dp/94W2768,SIM8050-6-0-14-01-A,http://www.farnell.com/datasheets/2342939.pdf,beaglephone-pocket:SIM8050-6-0-14-01-A,SIM-CARD-HOLDER
+Refs,Qty,Link,MPN,datasheet,footprint,value
+ANT1,1,https://www.digikey.com/product-detail/en/amphenol-rf-division/A-1JB/ARF1579CT-ND/1196264,A-1JB,,beaglephone-pocket:A-1JB,A-1JB
+C1,1,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R60J106ME84D/490-7316-1-ND/4251709,GRM188R60J106ME84D,,Capacitors_SMD:C_0603,10u
+"C3-C5, C8, C10, C11, C15",7,NULL,NULL,,Capacitors_SMD:C_0402,NOPE
+"C7, C9, C12, C21, C27",5,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R60J226MEA0D/490-7611-1-ND/4280544,GRM188R60J226MEA0D,,Capacitors_SMD:C_0603,22U
+"C13, C14, C22",3,https://www.digikey.com/product-detail/en/avx-corporation/F950J337MBAAQ2/478-8408-1-ND/4006044,F950J337MBAAQ2,,Capacitors_SMD:C_1210,330U
+C16,1,https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL05B104KO5NNNC/1276-1001-1-ND/3889087,CL05B104KO5NNNC,,Capacitors_SMD:C_0402,0.1U
+C17-C20,4,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM1555C1H470JA01D/490-5942-1-ND/3721299,GRM1555C1H470JA01,,Capacitors_SMD:C_0402,47p
+C2,1,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R61C104KA88D/490-5415-1-ND/2175222,GRM155R61C104KA88D,,Capacitors_SMD:C_0402,100n
+C23,1,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM1555C1H100JA01D/490-5921-1-ND/3721278,GRM1555C1H100JA01D,,Capacitors_SMD:C_0402,10n
+C24,1,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71C104KA88J/490-6328-1-ND/3845525,GRM155R71C104KA88J,,Capacitors_SMD:C_0402,100n
+C25,1,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM1555C1H560JA01D/490-1288-1-ND/587890,GRM1555C1H560JA01D,,Capacitors_SMD:C_0402,56p
+C26,1,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GJM1555C1H150JB01D/490-3117-1-ND/702383,GJM1555C1H150JB01D,,Capacitors_SMD:C_0402,15p
+C6,1,https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL10A225MQ8NNNC/1276-1888-1-ND/3889974,CL10A225MQ8NNNC,,Capacitors_SMD:C_0603,2.2U
+D1,1,https://www.digikey.com/product-detail/en/vishay-semiconductor-opto-division/VLMS1500-GS08/VLMS1500-GS08CT-ND/3504675,VLMS1500-GS08,,LEDs:LED_0402,Red LED
+"D2-D4, D10-D13",7,https://www.digikey.com/product-detail/en/littelfuse-inc/PESD0402-140/PESD0402-140CT-ND/1968526,PESD0402-140,,Resistors_SMD:R_0402,PESD0402
+D5-D8,4,https://www.digikey.com/product-detail/en/on-semiconductor/MBR0520LT1G/MBR0520LT1GOSCT-ND/917965,MBR0520LT1G,,Diodes_SMD:D_SOD-123,MBR052
+D9,1,https://www.digikey.com/product-detail/en/vishay-semiconductor-opto-division/VLMB1500-GS08/VLMB1500-GS08TR-ND/3504677,VLMB1500-GS08,,LEDs:LED_0402,Blue LED
+"J1, J2",2,https://www.digikey.com/product-detail/en/wurth-electronics-inc/61300211121/732-5315-ND/4846823,61300211121,,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,Conn_01x02
+J3,1,https://www.digikey.com/product-detail/en/amphenol-fci/10118192-0001LF/609-4613-1-ND/2785378,10118192-0001LF,,Connectors:USB_Micro-B,USB_OTG
+L1,1,http://www.mouser.com/ProductDetail/Coilcraft/XFL4020-102MEC/?qs=zCSbvcPd3pbaYHL7viZwQA%3D%3D,XFL4020-102MEC,http://www.mouser.com/ds/2/597/xfl4020-270756.pdf,beaglephone-pocket:XFL4020,1uH
+L2,1,NULL,NULL,,Inductors_SMD:L_0402,NOPE
+L3,1,https://www.digikey.com/product-detail/en/murata-electronics-north-america/BLM18AG121SN1D/490-1011-1-ND/584459,BLM18AG121SN1D,,Resistors_SMD:R_0603,FB
+"P1, P2",2,,PocketBeagle_Connectors,,PocketBeagle.pretty:TH-2X18-(35MIL-DIA)-W_O-SILK,PB_CONN
+Q1-Q4,4,https://www.digikey.com/product-detail/en/on-semiconductor/MMBT3904LT1G/MMBT3904LT1GOSCT-ND/1139813,MMBT3904LT1G,,TO_SOT_Packages_SMD:SOT-23,2N3904
+Q5-Q8,4,https://www.digikey.com/product-detail/en/central-semiconductor-corp/CMUDM7004-TR/CMUDM7004-CT-ND/5324586,CMUDM7004 TR,https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=CMUDM7004.PDF,beaglephone-pocket:SOT-523,Q_NMOS_GSD
+"R1, R6, R7, R14, R39, R40, R42-R47",12,https://www.digikey.com/product-detail/en/yageo/RC0402JR-0710KL/311-10KJRTR-ND/726418,RC0402JR-0710KL,,Resistors_SMD:R_0402,10K
+"R10, R17-R19, R21-R24, R27, R34-R38",14,NULL,NULL,,Resistors_SMD:R_0402,NOPE
+R11,1,https://www.digikey.com/product-detail/en/yageo/RC0402FR-071ML/311-1.00MLRCT-ND/729462,RC0402FR-071ML,,Resistors_SMD:R_0402,1MEG
+R12,1,https://www.digikey.com/product-detail/en/yageo/RC0402JR-07150KL/311-150KJRCT-ND/729372,RC0402JR-07150KL,,Resistors_SMD:R_0402,150K
+"R13, R16",2,https://www.digikey.com/product-detail/en/yageo/RC0402FR-0722RL/311-22.0LRTR-ND/726562,RC0402FR-0722RL,,Resistors_SMD:R_0402,22
+"R2-R4, R8, R9, R15, R26, R28",8,https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0.0JRCT-ND/729353,RC0402JR-070RL,,Resistors_SMD:R_0402,0
+"R5, R20",2,https://www.digikey.com/product-detail/en/yageo/RC0402JR-073KL/311-3.0KJRCT-ND/729400,RC0402JR-073KL,,Resistors_SMD:R_0402,3K
+R25,1,https://www.digikey.com/product-detail/en/yageo/RC0402FR-07100KL/311-100KLRCT-ND/729473,RC0402FR-07100KL,,Resistors_SMD:R_0402,100K
+R41,1,https://www.digikey.com/product-detail/en/yageo/RC0402JR-07470RL/311-470JRCT-ND/729429,RC0402JR-07470RL,,Resistors_SMD:R_0402,470
+U1,1,https://www.digikey.com/product-detail/en/texas-instruments/TPS63020DSJR/296-36491-1-ND/4305306,TPS63020DSJ,,beaglephone-pocket:TPS63020,TPS63020
+U2,1,,eSIM,,Housings_DFN_QFN:DFN-8-1EP_6x5mm_Pitch1.27mm_SmallFlag,eSIM
+U3,1,https://www.digikey.com/product-detail/en/u-blox-america-inc/SARA-U260-00S/672-1022-1-ND/6150685,SARA-U260-00S,,beaglephone-pocket:SARA-G3-U2,SARA-U260
+U4,1,http://www.newark.com/global-connector-technology/sim8050-6-0-14-01-a/connector-nano-sim-card-6-position/dp/94W2768,SIM8050-6-0-14-01-A,http://www.farnell.com/datasheets/2342939.pdf,beaglephone-pocket:SIM8050-6-0-14-01-A,SIM-CARD-HOLDER
