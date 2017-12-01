@@ -29,18 +29,13 @@ LIBS:elec-unifil
 LIBS:ESD_Protection
 LIBS:ftdi
 LIBS:gennum
-LIBS:graphic_symbols
 LIBS:hc11
-LIBS:infineon
 LIBS:intel
 LIBS:interface
-LIBS:intersil
 LIBS:ir
 LIBS:Lattice
 LIBS:leds
-LIBS:LEM
 LIBS:linear
-LIBS:logic_programmable
 LIBS:maxim
 LIBS:mechanical
 LIBS:memory
@@ -73,7 +68,6 @@ LIBS:references
 LIBS:regul
 LIBS:relays
 LIBS:rfcom
-LIBS:RFSolutions
 LIBS:sensors
 LIBS:silabs
 LIBS:siliconi
@@ -1547,12 +1541,12 @@ $EndComp
 $Comp
 L VCC #PWR030
 U 1 1 59E61248
-P 7000 18975
-F 0 "#PWR030" H 7000 18825 50  0001 C CNN
-F 1 "VCC" H 7000 19125 50  0000 C CNN
-F 2 "" H 7000 18975 50  0001 C CNN
-F 3 "" H 7000 18975 50  0001 C CNN
-	1    7000 18975
+P 6300 19050
+F 0 "#PWR030" H 6300 18900 50  0001 C CNN
+F 1 "VCC" H 6300 19200 50  0000 C CNN
+F 2 "" H 6300 19050 50  0001 C CNN
+F 3 "" H 6300 19050 50  0001 C CNN
+	1    6300 19050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2838,9 +2832,9 @@ Wire Wire Line
 Wire Wire Line
 	2975 9575 3625 9575
 Wire Wire Line
-	3625 9575 3625 10125
+	3625 10125 3625 9575
 Wire Wire Line
-	3625 10125 3400 10125
+	3400 10125 3625 10125
 Wire Wire Line
 	3400 10025 3475 10025
 Wire Wire Line
@@ -3032,9 +3026,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 19600 7150 19725
 Wire Wire Line
-	7350 19050 7000 19050
-Wire Wire Line
-	7000 19050 7000 18975
+	6300 19050 7350 19050
 Wire Wire Line
 	7350 19300 7250 19300
 Wire Wire Line
@@ -3439,4 +3431,26 @@ F 5 "https://www.digikey.com/product-detail/en/on-semiconductor/MMBT3904LT1G/MMB
 	1    4850 7725
 	1    0    0    -1  
 $EndComp
+$Comp
+L R R29
+U 1 1 5A2172EC
+P 7500 18875
+F 0 "R29" V 7550 19050 50  0000 C CNN
+F 1 "0" V 7500 18875 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 7430 18875 50  0001 C CNN
+F 3 "" H 7500 18875 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/yageo/RC0402JR-070RL/311-0.0JRCT-ND/729353" H 7550 19150 50  0001 C CNN "Link"
+F 5 "RC0402JR-070RL" H 7550 19150 50  0001 C CNN "MPN"
+	1    7500 18875
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7650 18875 8100 18875
+Wire Wire Line
+	8100 18875 8100 19050
+Connection ~ 8100 19050
+Wire Wire Line
+	6400 18875 7350 18875
+Text Label 6400 18875 0    65   ~ 0
+VDD_3V3B_TOP
 $EndSCHEMATC
